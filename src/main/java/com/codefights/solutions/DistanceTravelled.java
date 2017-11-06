@@ -1,3 +1,6 @@
+
+//https://codefights.com/challenge/pEkXSbKejtxLzj82y/
+
 package com.codefights.solutions;
 
 import java.io.BufferedReader;
