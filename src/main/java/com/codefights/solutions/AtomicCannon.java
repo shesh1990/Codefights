@@ -86,7 +86,7 @@ public class AtomicCannon {
 			index = index + lengthOfMinimum[index];
 		}
 		// remove the extra space at last
-		return result.toString().substring(0, result.length() - 1);
+		return result.deleteCharAt(result.length() - 1).toString();
 	}
 
 	private int[] min(String message) {
